@@ -47,6 +47,10 @@ body{
     width: 540px;
     margin-bottom: 55px;
 }
+.description.center{
+    margin: 0 auto;
+    text-align: center;
+}
 .button{
     display: inline-block;
     vertical-align: top;
@@ -59,4 +63,73 @@ body{
     line-height: 26px;
     border: none;
     cursor: pointer;
+}
+.about{
+    padding: 116px 0 95px 0;
+}
+.sub{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.cards{
+    background-color: #34547A;
+    padding: 100px 0;
+}
+.icon{
+    display: inline-block;
+    vertical-align: top;
+}
+.card-text{
+    display: inline-block;
+    vertical-align: top;
+    color: #FFFFFF;
+    padding-top: 3px;
+    margin-left: 20px;
+}
+.card-title{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    margin-bottom: 7px;
+}
+.card-description{
+    line-height: 16px;
+}
+.card{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 45px;
+}
+.card:last-child{
+    margin-right: 0;
+}
+.video{
+    padding: 95px 0 100px 0;
+    background-color: #EEEFF1;
+}
+.youtube{
+    width: 1110px;
+    height: 600px;
+}
+.description.margin{
+    margin-bottom: 52px;
+}
+.footer{
+    padding: 47px 0 46px 0;
+    background-color: #34547A;
+    color: #FFFFFF;
+}
+.name{
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 500px;
+    margin-bottom: 12px;
+}
+.copy{
+    font-size: 13px;
+    line-height: 21px;
 }
